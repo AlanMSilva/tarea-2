@@ -1,5 +1,5 @@
-let x=1,y=2,s=y,c=6,l=1;
-    for(i = 1; i<=7;i++)
+let x=1,y=2,s=y,l=1;
+    for(i = 1; i<=6;i++)
     {
         x*=i;
         y=Math.pow(y,i);
@@ -7,12 +7,12 @@ let x=1,y=2,s=y,c=6,l=1;
         {
             if(l==1)
             {
-                s+=y/x;
+                s-=y/x;
                 l--;
             }
             else
             {
-                s-=y/x;
+                s+=y/x;
                 l++;
             }           
         }

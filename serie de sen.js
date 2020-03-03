@@ -1,5 +1,7 @@
-let x=1,y=2,s=y,l=1;
-    for(i = 1; i<=7;i++)
+var resultado;
+function seno (){
+    let x=1,y=2,s=y,l=1;
+    for(var i = 1; i<=8;i++)
     {
         x*=i;
         y=Math.pow(y,i);
@@ -18,7 +20,10 @@ let x=1,y=2,s=y,l=1;
         }
         y=2;
     }
-console.log(s-2);
+    return s-2;
+}
+
+console.log(seno(resultado));
 
 
 
